@@ -1,0 +1,14 @@
+---
+:root_url: 'http://www.oyakephale.com'
+:paths:
+  :login: '/user'
+  :pictures_root: '/intranet/photos'
+:refs:
+  :login_form: 'user-login'
+  :file_selector: '#content-content > table.sticky-enabled > tbody > tr > td > a'
+  :folder_selector: '#oya-album .folder'
+  :gallery_container_selector: '#oya-album'
+  :gallery_selector: '#content-content .breadcrumb > a.active'
+  :gallery_url_prefix:
+    :public: '/intranet'
+    :simple_viewer: '/flashgal/folderphotogallery?folder=sites/default/files'
